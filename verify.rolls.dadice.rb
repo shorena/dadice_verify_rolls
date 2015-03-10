@@ -17,11 +17,11 @@ require 'openssl'
 ### SET THESE VALUES AS NEEDED ###
 
 $verbose = false # set to true for easier debugging
-$client_seed = "2vuLQ7j71Ph9p2lrObNA4KAEghg4Ky"
-$server_seed = "036b57bd24e9654fb4f569b37add48d41e408e822f01839e2443cffca88c55db"
-$sha256_of_server_seed = "553a6b29f31a58b72d6ab27e28866e787cd1c77108fa285c387cc9d58d338921"
-$end_nounce = 2516
-$start_nounce = 2492
+$client_seed           = "PS9zaMo49uhMoENfHZD0GIMVdLInFB"
+$sha256_of_server_seed = "df017d5bdb1bc86bc80910ae0ebd4d0a7898bf3f32127c6d1fb548d9a2ac4fe2"
+$server_seed           = "ede2a2e86b02649f7c7e5ad5eb31a74d27be694b81c1de7adf7e31f5db806c99"
+$start_nounce          = 0
+$end_nounce            = 18
 
 def simulate_roll(server_seed, client_seed, nounce)
     # must be defined here in order to use it after the loop finishes

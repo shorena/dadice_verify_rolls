@@ -1,0 +1,4 @@
+client seed           -> PS9zaMo49uhMoENfHZD0GIMVdLInFB
+server (sha 256)      -> df017d5bdb1bc86bc80910ae0ebd4d0a7898bf3f32127c6d1fb548d9a2ac4fe2
+server seed (decoded) -> ede2a2e86b02649f7c7e5ad5eb31a74d27be694b81c1de7adf7e31f5db806c99
+total bets            -> 19
